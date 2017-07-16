@@ -1,0 +1,46 @@
+@charset "utf-8";
+body,div,p,h4,ul,li{margin:0;padding:0;}
+ul{list-style: none;position:absolute;left:18%;top:100px;}
+li{display: none;}
+body{min-width:1208px;}
+.header{position:relative;width:100%;height:60px;vertical-align:middle;border-bottom:1px solid gainsboro;}
+.f_l{float:left;}
+.f_r{float:right;}
+.header .icon_img{position: absolute;top:10px;width:180px;height:50px;line-height:50px;background:url(../img/download-all.jpg) no-repeat  -630px 0;}
+.header span{position: absolute;left:190px;top:21px;background:#00BFFF;border-radius:3px;}
+.header .right_p{line-height:90px;padding-right:20px;}
+.right_p a{text-decoration: none;color:#00BFFF;font-size:12px;}
+.content{position:relative;}
+.device_list{width:100%;height:100px;line-height:150px;text-align:center;background:ghostwhite;}
+.device_list i{display:inline-block;width:145px;height:50px;}
+.center_content{position:relative;width:100%;height:439px;}
+.content_l{width:18%;height:439px;}
+.content_r{width:20%;height:439px;}
+.device_list i:first-child{background: url(../img/download-all.jpg) no-repeat -5px -120px;margin-left:130px;}
+.device_list i:nth-child(2){background:url(../img/download-all.jpg) no-repeat -163px -120px;}
+.device_list i:nth-child(3){background:url(../img/download-all.jpg) no-repeat -335px -120px;}
+.device_list i:nth-child(4){background:url(../img/download-all.jpg) no-repeat -480px -120px;}
+.device_list i:nth-child(5){background:url(../img/download-all.jpg) no-repeat -620px -120px;}
+.device_list i:nth-child(6){background:url(../img/download-all.jpg) no-repeat -766px -120px;}
+.device_list i:first-child:hover,.device_list i:first-child.selected{background:url(../img/download-all.jpg) no-repeat -5px -176px;margin-left:130px;}
+.device_list i:nth-child(2):hover,.device_list i:nth-child(2).selected{background:url(../img/download-all.jpg) no-repeat -163px -176px;}
+.device_list i:nth-child(3):hover,.device_list i:nth-child(3).selected{background:url(../img/download-all.jpg) no-repeat -335px -176px;}
+.device_list i:nth-child(4):hover,.device_list i:nth-child(4).selected{background:url(../img/download-all.jpg) no-repeat -480px -176px;}
+.device_list i:nth-child(5):hover,.device_list i:nth-child(5).selected{background:url(../img/download-all.jpg) no-repeat -620px -176px;}
+.device_list i:nth-child(6):hover,.device_list i:nth-child(6).selected{background:url(../img/download-all.jpg) no-repeat -766px -176px;}
+.center_content #jsonData{position: absolute;z-index:100;bottom:35%;right:21%;line-height: 30px;color:white;font-size:12px;}
+#btn_img{width:180px;height:60px;position:absolute;bottom:18%;right:23%;}
+.class1{background: url(../img/download-all.jpg) no-repeat -410px -360px;}
+.class2{background: url(../img/download-all.jpg) no-repeat -18px -355px;}
+.class3{background: url(../img/download-all.jpg) no-repeat -18px -485px;}
+.class4{background: url(../img/download-all.jpg) no-repeat -18px -485px;}
+.class5{background: url(../img/download-all.jpg) no-repeat -203px -355px;}
+.class6{background: url(../img/download-all.jpg) no-repeat -690px -360px;}
+.footer_top{width:850px;height:180px;margin:50px auto 30px;line-height:30px;}
+.footer_top .download_code{display:inline-block;margin-left:30px;width:99px;height:99px;background:url(../img/baidu_app_link.png) no-repeat;}
+.f_r p{font-size:14px;}
+.f_l input{height:20px;margin-top:15px;}
+.f_l input:nth-child(2){width:80px;margin-left:20px;}
+#send{height:30px;border-radius:2px;background:dodgerblue;border:none;}
+.footer_bottom{width:100%;height:30px;border-top:1px solid gainsboro;padding-top:30px;text-align: center;}
+.footer_bottom a{text-decoration: none;color:lightgray;font-size:14px;}

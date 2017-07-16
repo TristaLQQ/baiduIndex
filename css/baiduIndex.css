@@ -1,0 +1,19 @@
+@charset "utf-8";
+body,div,p{margin:0;padding:0;}
+.header{float:right;width:500px;height:60px;line-height:60px;}
+.header a{color:black;font-weight:bold;font-size:14px;margin-right:10px;}
+.header a:last-child{text-decoration:none;display:inline-block;width:80px;height:30px;line-height:30px;text-align:center;background:dodgerblue;color:white;}
+.content{position:relative;border:1px solid transparent;clear:both;width:600px;height:370px;margin:80px auto 0px;text-align: center;}
+.content .icon{width:260px;height:120px;margin:10px 10px 20px 130px;background:url(../img/bd_logo1.png) no-repeat center;background-size:contain;}
+.content p input[type='text']{width:500px;height:30px;}
+.content p input[type='button']{width:80px;height:36px;border:none;background:dodgerblue;color:white;}
+.content p input{float:left;}
+.content .txt_img{position:absolute;right:18%;top:160px;display:inline-block;width:18px;height:19px;background:url(../img/camera_new_5606e8f.png) no-repeat 0 0;}
+.content .txt_img:hover{background:url(../img/camera_new_5606e8f.png) no-repeat 0 -20px;}
+.footer{width:550px;height:180px;margin:0 auto;text-align: center;}
+.footer .code{position:relative;left:42%;display:block;width:80px;height:80px;background:url(../img/baidu_app_link.png) no-repeat;}
+.footer span,.footer a{font-size:12px;}
+.footer a{color:darkgrey;}
+.icon2:after,.icon1:after{content:'';display:inline-block;width:20px;height:20px;background: url(../img/baiduIndex.png) no-repeat 0 0;}
+.icon2:after{background:url(../img/baiduIndex.png) no-repeat -25px 0;}
+.footer p:nth-child(2){margin-top:10px;}

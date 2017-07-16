@@ -1,0 +1,58 @@
+footer
+{
+	width: 100%;
+	height:140px;
+	background:whitesmoke;
+    position:relative;
+    bottom:0;
+    left:0;
+}
+#copy
+{
+	min-width:1160px;
+	position: absolute;
+	height:20px;
+	bottom:-1%;
+	
+}
+#copy span
+{
+	position: absolute;
+	color:#666;
+	font-size: 12px;
+	line-height: 20px;
+	border-right:1px solid gainsboro;
+    padding-right: 8px;
+}
+
+#copy span a
+{
+	color:#666;
+	font-size: 12px;
+}
+#copy span:first-child
+{
+	left:33%;	
+}
+#copy span:nth-child(2)
+{
+	left:47%;	
+}
+#copy span:nth-child(3)
+{
+	left:52%;	
+}
+#copy span:nth-child(4)
+{
+	left:57%;	
+}
+#copy span:nth-child(5)
+{
+	left:62%;	
+}
+#copy span:last-child
+{
+	left:67%;	
+	border-right: 0px;
+}
+

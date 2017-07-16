@@ -1,0 +1,24 @@
+#content .nav_img
+{
+	position: absolute;
+	left:20px;
+	top:20px;
+	z-index: 4;
+}
+#content nav
+{
+	position:absolute;
+	z-index: 4;
+	right:40px;
+	top:20px;
+}
+#content nav a
+{
+	padding-right:20px;
+	color:white;
+}
+#content nav a:hover
+{
+	text-decoration: underline;
+}
+

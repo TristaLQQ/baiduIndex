@@ -1,0 +1,83 @@
+ body
+   {
+	   margin:0;
+	   padding:0;
+   }
+   #container
+   {
+   	position: relative;
+    min-width: 1160px;
+    /*超过最小宽度会出现一个滚动条*/
+   }
+      #content
+	  {
+	  	position:relative;
+		 width:100%;
+		 height:601px;
+		 overflow:hidden;
+	  }
+	  #list
+	  {
+	      position:relative;
+		  width:100%;
+		  height:601px;
+	  }
+	  #list img
+	  {
+		position:absolute;
+		 width:100%; 
+		 height:601px;
+		 left:0;
+		 top:0;
+		 opacity:0;
+		transition: all 3s;
+	  }
+	   #list img.active
+	   {
+		   opacity:1;
+	   }
+	   #list img.amplify
+	   {
+		   transform: scale(1.05);
+	   }
+	   #list img.normal
+	   {
+		   transform: scale(1);
+	   }
+	   #list span
+	   {
+	   	 position:absolute;
+	   	 z-index: 5;
+	   	 left:50px;
+	   	 bottom: 70px;
+	   	 width:300px;
+	   	 height:140px;
+	   	 color:white;
+	   	 font-family: "微软雅黑";
+	   	 font-size: 50px;
+	   	 text-indent: -1em;
+	   }
+	  #buttons
+	  {
+		  position:absolute;
+		  width:100px;
+		  height:20px;
+		  z-index:2;
+		  left:50%;
+		 bottom:30px;
+	  }
+	  #buttons span
+	  {
+		  float:left;
+		  margin-right:10px;
+		  width:10px;
+		  height:10px;
+		  border-radius:50%;
+		  background:#999;
+		  border:1px solid #FFF;
+	  }
+	  #buttons .on
+	  {
+		  background:#FFF;
+	  }
+       
